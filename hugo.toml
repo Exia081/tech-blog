@@ -1,11 +1,11 @@
 baseURL = 'https://your-blog-domain.com'
-defaultContentLanguage = 'zh'
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 theme = 'paper'
 
 # 分页设置
 [pagination]
-  pagerSize = 10
+pagerSize = 10
 
 # 构建设置
 buildDrafts = false
@@ -19,114 +19,110 @@ enableEmoji = true
 
 # 多语言配置
 [languages]
-  [languages.zh]
-    languageCode = 'zh-CN'
-    languageName = '中文'
-    title = '技术博客 | 思考与分享'
-    weight = 1
-    [languages.zh.params]
-      description = '分享日常思考、技术要点和经验总结'
-    [[languages.zh.menu.main]]
-      identifier = "home"
-      name = "首页"
-      url = "/"
-      weight = 10
-    [[languages.zh.menu.main]]
-      identifier = "technology"
-      name = "技术"
-      url = "/technology/"
-      weight = 20
-    [[languages.zh.menu.main]]
-      identifier = "culture"
-      name = "文化"
-      url = "/culture/"
-      weight = 30
-    [[languages.zh.menu.main]]
-      identifier = "archives"
-      name = "归档"
-      url = "/archives/"
-      weight = 40
-    [[languages.zh.menu.main]]
-      identifier = "search"
-      name = "搜索"
-      url = "/search/"
-      weight = 50
+[languages.zh]
+languageCode = 'zh-CN'
+languageName = '中文'
+title = 'Exia Hunag'
+weight = 1
+[languages.zh.params]
+description = '分享日常思考、技术实践和经验总结'
+[[languages.zh.menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 10
+[[languages.zh.menu.main]]
+identifier = "technology"
+name = "技术"
+url = "/technology/"
+weight = 20
+[[languages.zh.menu.main]]
+identifier = "culture"
+name = "文化"
+url = "/culture/"
+weight = 30
+# [[languages.zh.menu.main]]
+# identifier = "archives"
+# name = "归档"
+# url = "/archives/"
+# weight = 40
+# [[languages.zh.menu.main]]
+# identifier = "search"
+# name = "搜索"
+# url = "/search/"
+# weight = 50
 
-  [languages.en]
-    languageCode = 'en-US'
-    languageName = 'English'
-    title = 'Tech Blog | Thoughts & Sharing'
-    weight = 2
-    [languages.en.params]
-      description = 'Sharing daily thoughts, technical insights and experience'
-    [[languages.en.menu.main]]
-      identifier = "home"
-      name = "Home"
-      url = "/"
-      weight = 10
-    [[languages.en.menu.main]]
-      identifier = "technology"
-      name = "Technology"
-      url = "/technology/"
-      weight = 20
-    [[languages.en.menu.main]]
-      identifier = "culture"
-      name = "Culture"
-      url = "/culture/"
-      weight = 30
-    [[languages.en.menu.main]]
-      identifier = "archives"
-      name = "Archives"
-      url = "/archives/"
-      weight = 40
-    [[languages.en.menu.main]]
-      identifier = "search"
-      name = "Search"
-      url = "/search/"
-      weight = 50
+[languages.en]
+languageCode = 'en-US'
+languageName = 'English'
+title = 'Exia Hunag'
+weight = 2
+[languages.en.params]
+description = 'Sharing daily thoughts, technical practice and experience'
+[[languages.en.menu.main]]
+identifier = "home"
+name = "About"
+url = "/about/"
+weight = 10
+[[languages.en.menu.main]]
+identifier = "technology"
+name = "Technology"
+url = "/technology/"
+weight = 20
+[[languages.en.menu.main]]
+identifier = "culture"
+name = "Culture"
+url = "/culture/"
+weight = 30
+# [[languages.en.menu.main]]
+# identifier = "archives"
+# name = "Archives"
+# url = "/archives/"
+# weight = 40
+# [[languages.en.menu.main]]
+# identifier = "search"
+# name = "Search"
+# url = "/search/"
+# weight = 50
 
 # Paper主题配置
 [params]
-  # 颜色主题
-  color = 'linen'  # 可选: linen, wheat, gray, light
-  
-  # 社交图标
-  twitter = 'your_twitter_id'
-  github = 'your_github_id'
-  instagram = 'your_instagram_id'
-  linkedin = 'your_linkedin_id'
-  mastodon = 'your_mastodon_link'
-  threads = '@your_threads_id'
-  bluesky = 'your_bluesky_id'
-  rss = true
-  
-  # 首页个人信息
-  avatar = 'your_gravatar_email_or_image_url'
-  name = '你的名字'
-  bio = '你的个人简介'
-  
-  # 其他设置
-  disableHLJS = false
-  disablePostNavigation = false
-  monoDarkIcon = true
-  math = true
-  localKatex = false
-  favicon = "favicon.ico"
-  appleTouchIcon = "apple-touch-icon.png"
+# 颜色主题
+color = 'linen' # 可选: linen, wheat, gray, light
+
+# 社交图标
+
+github = 'Exia081'
+linkedin = 'exia081'
+# rss = true
+
+# 首页个人信息
+avatar = 'https://avatars.githubusercontent.com/u/6063169?v=4'
+name = 'Exia Huang'
+bio = 'A software engineer'
+
+# 其他设置
+disableHLJS = false
+disablePostNavigation = false
+monoDarkIcon = true
+math = true
+localKatex = false
+favicon = "favicon.ico"
+appleTouchIcon = "apple-touch-icon.png"
 
 # 输出格式配置
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 # 语法高亮
-[markup]
-  [markup.highlight]
-    style = 'github'
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
+# [markup]
+# [markup.highlight]
+# style = 'github'
+# lineNos = true
+# lineNumbersInTable = true
+# noClasses = false
 
 # 压缩设置
 [minify]
-  disableXML = true
-  minifyOutput = true
+disableXML = true
+minifyOutput = true

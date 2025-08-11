@@ -7,7 +7,6 @@ author: "Author"
 description: "Exploring how technologists can enhance problem-solving abilities through philosophical thinking"
 ---
 
-# The Power of Thinking: Philosophical Mindset for Technologists
 
 As technologists, we solve various technical problems daily, but few realize that excellent programmers often possess profound philosophical thinking.
 
