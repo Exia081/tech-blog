@@ -1,4 +1,141 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://your-blog-domain.com'
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = false
 theme = 'hugo-PaperMod'
+
+# 分页设置
+[pagination]
+  pagerSize = 10
+
+# 构建设置
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# SEO优化
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+# 多语言配置
+[languages]
+  [languages.zh]
+    languageCode = 'zh-CN'
+    languageName = '中文'
+    title = '技术博客 | 思考与分享'
+    weight = 1
+    [languages.zh.params]
+      description = '分享日常思考、技术要点和经验总结'
+    [[languages.zh.menu.main]]
+      identifier = "home"
+      name = "首页"
+      url = "/"
+      weight = 10
+    [[languages.zh.menu.main]]
+      identifier = "technology"
+      name = "技术"
+      url = "/technology/"
+      weight = 20
+    [[languages.zh.menu.main]]
+      identifier = "culture"
+      name = "文化"
+      url = "/culture/"
+      weight = 30
+    [[languages.zh.menu.main]]
+      identifier = "archives"
+      name = "归档"
+      url = "/archives/"
+      weight = 40
+    [[languages.zh.menu.main]]
+      identifier = "search"
+      name = "搜索"
+      url = "/search/"
+      weight = 50
+
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Tech Blog | Thoughts & Sharing'
+    weight = 2
+    [languages.en.params]
+      description = 'Sharing daily thoughts, technical insights and experience'
+    [[languages.en.menu.main]]
+      identifier = "home"
+      name = "Home"
+      url = "/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "technology"
+      name = "Technology"
+      url = "/technology/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "culture"
+      name = "Culture"
+      url = "/culture/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "archives"
+      name = "Archives"
+      url = "/archives/"
+      weight = 40
+    [[languages.en.menu.main]]
+      identifier = "search"
+      name = "Search"
+      url = "/search/"
+      weight = 50
+
+# PaperMod主题配置
+[params]
+  # 网站设置
+  env = 'production'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  
+  # 社交分享
+  ShareButtons = ["twitter", "facebook", "reddit", "linkedin", "telegram", "whatsapp"]
+  
+  # 评论系统 (可选配置 Disqus)
+  # disqusShortname = "your-disqus-shortname"
+  
+  # 搜索功能
+  fuseOpts = true
+  
+  # 首页设置
+  [params.homeInfoParams]
+    Title = "欢迎来到技术博客"
+    Content = "这里分享技术思考、实践经验和文化见解。支持中英文双语阅读。"
+  
+  # 社交图标
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/yourusername"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+# 输出格式配置
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 语法高亮
+[markup]
+  [markup.highlight]
+    style = 'github'
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+
+# 压缩设置
+[minify]
+  disableXML = true
+  minifyOutput = true
