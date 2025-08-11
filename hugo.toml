@@ -1,7 +1,7 @@
 baseURL = 'https://your-blog-domain.com'
 defaultContentLanguage = 'zh'
 defaultContentLanguageInSubdir = false
-theme = 'hugo-PaperMod'
+theme = 'paper'
 
 # 分页设置
 [pagination]
@@ -85,43 +85,34 @@ enableEmoji = true
       url = "/search/"
       weight = 50
 
-# PaperMod主题配置
+# Paper主题配置
 [params]
-  # 网站设置
-  env = 'production'
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowToc = true
-  TocOpen = false
-  
-  # 社交分享
-  ShareButtons = ["twitter", "facebook", "reddit", "linkedin", "telegram", "whatsapp"]
-  
-  # 评论系统 (可选配置 Disqus)
-  # disqusShortname = "your-disqus-shortname"
-  
-  # 搜索功能
-  fuseOpts = true
-  
-  # 首页设置
-  [params.homeInfoParams]
-    Title = "欢迎来到技术博客"
-    Content = "这里分享技术思考、实践经验和文化见解。支持中英文双语阅读。"
+  # 颜色主题
+  color = 'linen'  # 可选: linen, wheat, gray, light
   
   # 社交图标
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/yourusername"
-  [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/yourusername"
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
+  twitter = 'your_twitter_id'
+  github = 'your_github_id'
+  instagram = 'your_instagram_id'
+  linkedin = 'your_linkedin_id'
+  mastodon = 'your_mastodon_link'
+  threads = '@your_threads_id'
+  bluesky = 'your_bluesky_id'
+  rss = true
+  
+  # 首页个人信息
+  avatar = 'your_gravatar_email_or_image_url'
+  name = '你的名字'
+  bio = '你的个人简介'
+  
+  # 其他设置
+  disableHLJS = false
+  disablePostNavigation = false
+  monoDarkIcon = true
+  math = true
+  localKatex = false
+  favicon = "favicon.ico"
+  appleTouchIcon = "apple-touch-icon.png"
 
 # 输出格式配置
 [outputs]
