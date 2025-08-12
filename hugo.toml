@@ -1,6 +1,6 @@
 baseURL = 'https://rad-sherbet-cbfa72.netlify.app'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 theme = 'paper'
 
 # 分页设置
@@ -22,8 +22,9 @@ enableEmoji = true
 [languages.zh]
 languageCode = 'zh-CN'
 languageName = '中文'
-title = 'Nick Huang'
+title = 'Exia Huang'
 weight = 1
+contentDir = 'content'
 [languages.zh.params]
 description = '分享日常思考、技术实践和经验总结'
 [[languages.zh.menu.main]]
@@ -55,8 +56,9 @@ weight = 30
 [languages.en]
 languageCode = 'en-US'
 languageName = 'English'
-title = 'Nick Huang'
+title = 'Exia Huang'
 weight = 2
+contentDir = 'content'
 [languages.en.params]
 description = 'Sharing daily thoughts, technical practice and experience'
 [[languages.en.menu.main]]
@@ -98,7 +100,7 @@ github = 'Exia081'
 
 # 首页个人信息
 avatar = 'https://avatars.githubusercontent.com/u/6063169?v=4'
-name = 'Nick Huang'
+name = 'Exia Huang'
 bio = 'A software engineer'
 
 # 其他设置
