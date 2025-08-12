@@ -1,4 +1,4 @@
-baseURL = 'https://your-blog-domain.com'
+baseURL = 'https://rad-sherbet-cbfa72.netlify.app'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 theme = 'paper'
