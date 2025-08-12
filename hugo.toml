@@ -22,7 +22,7 @@ enableEmoji = true
 [languages.zh]
 languageCode = 'zh-CN'
 languageName = '中文'
-title = 'Exia Hunag'
+title = 'Nick Huang'
 weight = 1
 [languages.zh.params]
 description = '分享日常思考、技术实践和经验总结'
@@ -55,7 +55,7 @@ weight = 30
 [languages.en]
 languageCode = 'en-US'
 languageName = 'English'
-title = 'Exia Hunag'
+title = 'Nick Huang'
 weight = 2
 [languages.en.params]
 description = 'Sharing daily thoughts, technical practice and experience'
@@ -93,12 +93,12 @@ color = 'linen' # 可选: linen, wheat, gray, light
 # 社交图标
 
 github = 'Exia081'
-linkedin = 'exia081'
+# linkedin = 'exia081'
 # rss = true
 
 # 首页个人信息
 avatar = 'https://avatars.githubusercontent.com/u/6063169?v=4'
-name = 'Exia Huang'
+name = 'Nick Huang'
 bio = 'A software engineer'
 
 # 其他设置
