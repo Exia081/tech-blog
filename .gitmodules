@@ -4,3 +4,4 @@
 [submodule "themes/paper"]
 	path = themes/paper
 	url = https://github.com/Exia081/hugo-theme-paper.git
+	branch = master
