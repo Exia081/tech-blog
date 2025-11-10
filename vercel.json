@@ -3,6 +3,27 @@
   "buildCommand": "hugo version && hugo --gc --minify",
   "outputDirectory": "public",
   "installCommand": "git submodule update --init --recursive",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/:path*/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*\\.xml)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        }
+      ]
+    }
+  ],
   "env": {
     "HUGO_VERSION": "0.148.2"
   }

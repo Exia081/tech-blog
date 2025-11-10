@@ -1,4 +1,4 @@
-baseURL = 'https://rad-sherbet-cbfa72.netlify.app'
+baseURL = 'https://blog-chi-hazel.vercel.app'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 theme = 'paper'
