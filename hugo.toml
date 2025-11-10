@@ -27,8 +27,6 @@ weight = 1
 contentDir = 'content'
 [languages.zh.params]
 description = '分享日常思考、技术实践和经验总结'
-[languages.zh.params.giscus]
-lang = "en-US"
 [[languages.zh.menu.main]]
 identifier = "home"
 name = "首页"
@@ -63,8 +61,6 @@ weight = 2
 contentDir = 'content'
 [languages.en.params]
 description = 'Sharing daily thoughts, technical practice and experience'
-[languages.en.params.giscus]
-lang = "en"
 [[languages.en.menu.main]]
 identifier = "home"
 name = "About"
@@ -118,17 +114,16 @@ appleTouchIcon = "apple-touch-icon.png"
 
 # Giscus 评论配置
 [params.giscus]
-repo = "Exia081/blog"  # 您的 GitHub 仓库
-repoId = "R_kgDOHUr2fg"  # ⚠️ 请从 giscus.app 获取并替换此值
-category = "Announcements"  # Discussion 分类
-categoryId = "DIC_kwDOHUr2fs4CxodP"  # ⚠️ 请从 giscus.app 获取并替换此值
+repo = "Exia081/blog"
+repoId = "R_kgDOHUr2fg"
+category = "Announcements"
+categoryId = "DIC_kwDOHUr2fs4CxodP"
 mapping = "pathname"
 strict = "0"
 reactionsEnabled = "1"
 emitMetadata = "0"
 inputPosition = "top"
-theme = "light"
-lang = "en"  # 默认语言
+theme = "preferred_color_scheme"
 loading = "lazy"
 
 # 输出格式配置
