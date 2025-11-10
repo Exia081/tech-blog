@@ -1,40 +1,38 @@
 ---
 title: "About"
-date: 2024-01-01
+date: 2024-01-05
 description: "About Exia Huang - Software Engineer and Technology Enthusiast"
 ---
 
-Hey there! I'm **Exia Huang** 👋 - a software engineer who's totally obsessed with technology and loves learning new stuff. Right now, I'm working in the smart hardware industry, building cloud services that make cool gadgets work behind the scenes.
+Hello! I'm **Exia Huang**, a software engineer passionate about technology and committed to continuous learning. Currently, I'm working in the smart hardware industry, developing backend cloud services.
 
 ## What Gets Me Excited
 
-I'm a software engineer who's really into:
+I'm a dedicated software engineer with expertise in:
 
-- **Backend Development**: Building systems that can grow and evolve over time (like a digital LEGO set that keeps getting bigger!)
-- **Making Things Reliable**: Creating solutions that keep websites running smoothly, even when things go wrong
-- **Business Analysis**: I love digging deep into how businesses work, finding the pain points, and figuring out how people, processes, systems, and business goals all fit together. It's like being a detective, but for companies!
-- **Sharing Knowledge**: I read a lot of books and learn from my work experiences, so I share what I discover. It helps me grow, and hopefully helps others too!
+- **Architecture Design**: Designing sustainable and evolvable architecture solutions
+- **Reliability Engineering**: Analyzing website performance bottlenecks and providing systematic solutions
+- **Business Analysis**: Deeply analyzing business operations, identifying pain points, and understanding the relationships between business, systems, processes, and people. Based on Domain-Driven Design principles, I provide systematic solutions
+- **Knowledge Sharing**: Sharing books I've read, summarizing my work and learning experiences to improve myself, and hopefully help others too
+- **AI Applications**: Exploring AI applications in software development, including AI-assisted development, AI-assisted testing, and AI-assisted operations
 
-## My Story So Far
+## My Journey
 
-Here's how I got here:
-
-- **2011**: Started studying software engineering in Guangzhou. My first programming language was C - pretty old school, right? I was doing low-level network programming (the kind that makes the internet work).
-- **Internship Days**: Built a hospital logistics warehouse management system. I worked on everything - device apps, web apps, and backend services. The coolest part? It got deployed in 8 hospitals! That was the first time I realized my code could actually help people in real life. Pretty awesome feeling!
-- **Post-Graduation**: I've worked in different industries - internet, education, and now smart hardware. Each one taught me something different.
-- **Experience**: Spent about 5 years at smaller companies managing backend cloud services, and another 5 years at bigger companies working on company-wide backend systems. Both experiences were incredible and taught me so much!
+- **2011**: Started studying software engineering in Guangzhou,China, initially using C language for low-level network programming development
+- **2015**: During my internship, I was responsible for designing and developing a hospital logistics warehouse management system, working on device applications, web applications, and backend services. This system was successfully deployed in 8 hospitals, which was the first time I felt the value my work brought to society
+- **After Graduation**: I've worked in different industries and companies, including mobile phone industry, education industry, and smart hardware industry, where I've been responsible for backend cloud service development and management
+- **Experience**: About 5 years at smaller companies responsible for backend cloud service development and architecture design, and another 5 years at larger companies designing and developing company-wide backend cloud services. These experiences have given me invaluable professional experience that I'll benefit from for life
 
 ## What I'll Share Here
 
-I'll be posting regularly about these topics:
+I'll regularly share content in the following areas:
 
-- **Tech Thoughts**: Deep dives into programming concepts, best practices, and the lessons I've learned (sometimes the hard way!)
-- **Culture & Industry**: My thoughts on tech culture, industry trends, and how to grow in your career
-- **Life Stuff**: Just regular thoughts about life from someone who happens to be a software engineer
+- **Tech Thoughts**: Deep dives into programming concepts, best practices, and lessons learned
+- **Cultural Thoughts**: Reflections on tech culture,career development, industry trends, and career development
+- **Personal Life Reflections**: Thoughts about life from an ordinary person's perspective
+- **Financial Freedom**: My thoughts on financial freedom as an ordinary person
 
-## Let's Connect!
-
-I'm always down to chat with fellow developers, tech enthusiasts, or anyone curious about how technology and culture mix together.
+## Contact Me
 
 - **GitHub**: [@Exia081](https://github.com/Exia081)
 - **Gmail**: [exia081@gmail.com](mailto:exia081@gmail.com)
