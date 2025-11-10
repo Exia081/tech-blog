@@ -3,23 +3,43 @@
   "buildCommand": "hugo version && hugo --gc --minify",
   "outputDirectory": "public",
   "installCommand": "git submodule update --init --recursive",
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/index.html"
+      "destination": "/zh/",
+      "permanent": false
     },
     {
-      "source": "/:path*",
-      "destination": "/:path*/index.html"
+      "source": "/index.html",
+      "destination": "/zh/",
+      "permanent": false
     }
   ],
   "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
     {
       "source": "/(.*\\.xml)",
       "headers": [
         {
           "key": "Content-Type",
           "value": "application/rss+xml; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.html)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
         }
       ]
     }
