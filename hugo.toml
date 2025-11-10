@@ -28,9 +28,9 @@ contentDir = 'content'
 [languages.zh.params]
 description = '分享日常思考、技术实践和经验总结'
 [[languages.zh.menu.main]]
-identifier = "home"
-name = "首页"
-url = "/"
+identifier = "about"
+name = "关于"
+url = "/about/"
 weight = 10
 [[languages.zh.menu.main]]
 identifier = "technology"
