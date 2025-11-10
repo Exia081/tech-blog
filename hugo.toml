@@ -114,10 +114,10 @@ appleTouchIcon = "apple-touch-icon.png"
 
 # Giscus 评论配置
 [params.giscus]
-repo = "Exia081/blog"
-repoId = "R_kgDOHUr2fg"
+repo = "Exia081/tech-blog"
+repoId = "R_kgDOPZNtyQ"
 category = "Announcements"
-categoryId = "DIC_kwDOHUr2fs4CxodP"
+categoryId = "DIC_kwDOPZNtyc4Cxomd"
 mapping = "pathname"
 strict = "0"
 reactionsEnabled = "1"
