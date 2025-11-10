@@ -1,5 +1,5 @@
 baseURL = 'https://nickhuang.work'
-defaultContentLanguage = 'zh'
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 theme = 'paper'
 
