@@ -3,18 +3,8 @@
   "buildCommand": "hugo version && hugo --gc --minify --baseURL https://blog-chi-hazel.vercel.app/",
   "outputDirectory": "public",
   "installCommand": "git submodule update --init --recursive",
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/zh/",
-      "permanent": false
-    },
-    {
-      "source": "/index.html",
-      "destination": "/zh/",
-      "permanent": false
-    }
-  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -22,24 +12,6 @@
         {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
-        }
-      ]
-    },
-    {
-      "source": "/(.*\\.xml)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/rss+xml; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "/(.*\\.html)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/html; charset=utf-8"
         }
       ]
     }

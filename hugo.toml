@@ -1,5 +1,5 @@
 baseURL = 'https://blog-chi-hazel.vercel.app'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'zh'
 defaultContentLanguageInSubdir = true
 theme = 'paper'
 
