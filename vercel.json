@@ -1,6 +1,5 @@
 {
-  "framework": "hugo",
-  "buildCommand": "hugo version && hugo --gc --minify --baseURL https://blog-chi-hazel.vercel.app/",
+  "buildCommand": "hugo version && hugo --gc --minify",
   "outputDirectory": "public",
   "installCommand": "git submodule update --init --recursive",
   "cleanUrls": true,
@@ -16,7 +15,9 @@
       ]
     }
   ],
-  "env": {
-    "HUGO_VERSION": "0.148.2"
+  "build": {
+    "env": {
+      "HUGO_VERSION": "latest"
+    }
   }
 }
