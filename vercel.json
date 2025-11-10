@@ -1,6 +1,6 @@
 {
   "framework": "hugo",
-  "buildCommand": "hugo version && hugo --gc --minify",
+  "buildCommand": "hugo version && hugo --gc --minify --baseURL https://blog-chi-hazel.vercel.app/",
   "outputDirectory": "public",
   "installCommand": "git submodule update --init --recursive",
   "redirects": [
