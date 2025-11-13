@@ -130,8 +130,15 @@ loading = "lazy"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+# Markup 配置
+[markup]
+# 目录设置
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+ordered = false
+
 # 语法高亮
-# [markup]
 # [markup.highlight]
 # style = 'github'
 # lineNos = true
